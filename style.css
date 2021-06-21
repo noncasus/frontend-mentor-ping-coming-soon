@@ -1,0 +1,83 @@
+body{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.logo, h1, h2, form{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo{
+	margin: 75px auto 50px auto;
+}
+.heading-wrapper{
+	margin-bottom: 40px;
+}
+h1{
+	font-weight: 400;
+	color: #a3a3a3;
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+h1 b{
+	color: #000;
+
+}
+h2{
+	font-size: 1.2rem;
+	color: #535353;
+	font-weight: 400;
+}
+.form-wrapper{
+	margin-bottom: 80px;
+}
+form input[type="text"]{
+	width: 400px;
+	border-radius: 50px;
+	padding: 15px 25px;
+	border-color: #d3d3d3;
+	border-style: solid;
+	margin-right: 10px;
+}
+form input:focus{
+	outline: none;
+}
+::placeholder{
+	color: #d3d3d3;
+}
+form input[type="submit"]{
+	width: 200px;
+	padding: 15px 30px;
+	color: #fff;
+	background-color: hsl(223, 87%, 63%);
+	border-color: transparent;
+	border-radius: 50px;
+	box-shadow: 1px 5px 0px #e3e3e3;
+}
+.illustration{
+	margin: 0 auto 80px auto;
+}
+.illustration img{
+	width: 100%;
+	text-align: center;
+}
+.social-media-wrapper{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.social-media a{
+	display: inline-block;
+    border-radius: 50px;
+    border-color: #efefef;
+    border-style: solid;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+}
+.copyright{
+	color: #a3a3a3;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
